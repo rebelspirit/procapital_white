@@ -2,6 +2,9 @@
     header {
         margin-bottom: 100px !important;
     }
+    main {
+        padding-bottom: 70px;
+    }
     .bg-container {
         display: none;
     }
@@ -269,6 +272,9 @@
         font-size: 21px;
         margin: 0;
     }
+    .about-countainer {
+        margin-bottom: 70px;
+    }
     .about-us {
         padding: 0 10px;
     }
@@ -282,6 +288,94 @@
         font-size: 23px;
     }
     .graphs-img {
+        display: none;
+    }
+    .full-description {
+        padding: 0 10px;
+        margin-bottom: 70px;
+    }
+    .full-description:before {
+        display: none;
+    }
+    .full-description > h2 {
+        font-size: 40px;
+    }
+    .full-description > p {
+        font-size: 21px;
+    }
+    .description-container {
+        box-shadow: unset;
+        border-radius: unset;
+        background-color: unset;
+        padding: 0;
+    }
+    .description-logo {
+        display: none;
+    }
+    .description-content {
+        margin-left: unset;
+    }
+    .description-content > p {
+        font-size: 19px;
+    }
+    .clients-container {
+        display: none;
+    }
+    .contactForm-container {
+        position: unset;
+        box-shadow: unset;
+        border-radius: unset;
+        background-color: unset;
+        padding: 0 10px;
+    }
+    .contactForm-container form {
+        margin: 0;
+    }
+    .contactForm-container form h4 {
+        font-size: 42px;
+        line-height: 50px;
+    }
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+    .row input {
+        width: 280px;
+        height: 60px;
+        margin-bottom: 15px;
+    }
+    form button {
+        width: 200px;
+        height: 50px;
+        font-size: 21px;
+    }
+    .man {
+        display: none;
+    }
+    footer {
+        padding-top: 70px;
+    }
+    .footer-logo {
+        margin-bottom: 30px;
+    }
+    .footer-top-container, .footer-bottom-container {
+        flex-direction: column;
+    }
+    .footer-top-container .col {
+        padding: 0 10px;
+        margin: 15px 0;
+    }
+    .footer-bottom-container .col {
+        padding: 0 10px;
+        margin: 15px 0;
+    }
+    .footer-top-container .col a {
+        font-size: 21px;
+    }
+    .footer-bottom-container .col p {
+        font-size: 21px;
+    }
+    .world-map {
         display: none;
     }
 }

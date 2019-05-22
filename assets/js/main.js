@@ -1,7 +1,16 @@
 $( document ).ready(function() {
 
     // WOW Animation
-    new WOW().init();
+    wow = new WOW(
+        {
+            boxClass:     'wow',      // default
+            animateClass: 'animated', // default
+            offset:       0,          // default
+            mobile:       false,       // default
+            live:         true        // default
+        }
+    )
+    wow.init();
 
     // Vanilla Titl Animation
     VanillaTilt.init(document.querySelectorAll(".slider-item"), {
